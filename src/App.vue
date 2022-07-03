@@ -49,7 +49,7 @@ import TheUsersList from './components/TheUsersList.vue'
 import AppLoader from './components/AppLoader.vue'
 import AppPopup from './components/AppPopup.vue'
 
-const DEFAULT_PER_PAGE = 1;
+const DEFAULT_PER_PAGE = 10;
 const PATH_BASE = 'https://api.github.com';
 const PATH_SEARCH = '/search';
 const PATH_USERS = '/users';
