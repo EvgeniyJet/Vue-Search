@@ -38,9 +38,11 @@
 			</div>
 		</div>
 	</div>
+	
 	<div class="card center" v-else>
     <h4>Пользователей ещё нет</h4>
   </div>
+	
 </template>
 
 <script>
@@ -78,7 +80,8 @@ export default {
   margin: 0;
   padding: 0;
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(150px, 250px));
+	/* grid-template-columns: repeat(auto-fill, minmax(150px, 250px)); */
+	grid-template-columns: repeat(auto-fill, 100%);
 	justify-content: center;
 	grid-gap: 30px;
 }
